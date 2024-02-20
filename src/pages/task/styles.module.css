@@ -1,0 +1,99 @@
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 18px;
+}
+
+.main {
+    width: 100%;
+}
+
+.main h1 {
+    margin-bottom: 14px;
+}
+
+.task {
+    width: 100%;
+    border: 1.5px solid #909090;
+    padding: 14px;
+    line-height: 150%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task p {
+    white-space: pre-wrap;
+    width: 100%;
+}
+
+.commentsContainer {
+    margin: 18px 0;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.commentsContainer h2 {
+    margin: 14px 0;
+}
+
+.button {
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3183ff;
+    padding: 12px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+    margin-top: 8px;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    background-color: #3183ffa8;
+}
+
+
+.button:hover {
+    transform: scale(1.02);
+}
+
+.comment {
+    border: 1px solid #ddd;
+    padding: 14px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+}
+
+.headComment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.commentsLabel {
+    background-color: #ccc;
+    padding: 4px 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.buttonTrash {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.comment > p {
+    white-space: pre-wrap;
+}
